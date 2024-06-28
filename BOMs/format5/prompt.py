@@ -1,5 +1,5 @@
 prompt = """
-System Prompt:  you are an expert at analyzing hand written Bill of material images.
+System Prompt: You are an expert at analyzing hand written Bill of material images.
 
 Prompt:
 
@@ -32,7 +32,9 @@ Index | AmeriPak 3500 Servo Feeder | 22-000-000 |
 Index | AmeriPak 40 | 23-000-000 |
 Index | HWS | 24-000-000 |
 
-The 'Category' column data from the above example is usually extracted from the top center of the Bill of Materials image, make sure to include all of the text from the image where you determine is the 'Category'. If you are unable to clearly identify or deduce what the 'Category' is then leave the column blank.
+The 'Category' column data from the above example is usually extracted from the top center of the Bill of Materials image, make sure to include all of the text from the image where you determine is the 'Category'. Also make sure to fill every row in the 'Category' column of the table.
+
+Only use the 3 columns from the example: 'Category', 'Subcategory', and 'Part Number/ID'. If you are unable to identify any of the columns from the image, leave it blank.
 
 Also pay close attention to each Part Number/ID as it may not be in numerical order always and if you do end up tripping up, ensure not to make each Part Number/ID after be wrong. Make sure you match each Part Number/ID with its corresponding Category individually and accurately.
 """
